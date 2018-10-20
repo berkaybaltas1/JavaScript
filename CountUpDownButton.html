@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+    </title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <script language= "javascript" type="text/javascript">
+        var y =10;
+        function myfun() {
+            y--;
+            document.getElementById("demo").innerHTML=y;
+        }
+        function myfun1() {
+            y++;
+            document.getElementById("demo").innerHTML=y;
+        }
+
+    </script>
+    
+</head>
+
+<body>
+    <p id="demo">10</p>
+    <button type="button" onclick= "myfun()">Count Down</button>
+    <button type="button" onclick= "myfun1()">Count Up</button>
+
+
+</body>
+</html>
